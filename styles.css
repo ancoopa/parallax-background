@@ -1,0 +1,41 @@
+.background {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  margin: 25vh auto;
+}
+
+.parallax {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax__layers-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax__layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.parallax__layer__0 {
+  background-color: rgba(100, 230, 100, 0.2);
+}
+.parallax__layer__1 {
+  background-color: rgba(230, 100, 100, 0.2);
+}
+.parallax__layer__2 {
+  background-color: rgba(100, 100, 230, 0.2);
+}
+.parallax__layer__3 {
+  background-color: rgba(25, 180, 255, 0.2);
+}
+.parallax__layer__4 {
+  background-color: rgba(7, 15, 25, 0.2);
+}
+
+/* rgb(25, 180, 255) */
